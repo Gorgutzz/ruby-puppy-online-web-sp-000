@@ -2,11 +2,11 @@ class Dog
 
 
 
-  attr_accessor :puppy
+  attr_accessor :name
   @@all = []
 
-  def initialize(puppy)
-    @puppy = puppy
+  def initialize(name)
+    @name = name
     @@all << self
   end
 
